@@ -1,0 +1,31 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name todo-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chariondm/todo_app.git"
+  },
+  "keywords": [],
+  "author": "Marcelo Souza <chariondm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chariondm/todo_app/issues"
+  },
+  "homepage": "https://github.com/chariondm/todo_app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "pm2": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
